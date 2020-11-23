@@ -6,3 +6,7 @@ class Team:
 
     def add_player(self, player):
         self.players.append(player)
+
+    def has_player(self, player):
+        if player in self.players:
+            return True
