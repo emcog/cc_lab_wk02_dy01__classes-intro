@@ -3,5 +3,5 @@ class Student:
         self.name = name
         self.cohort = cohort
 
-    # def talk(phrase)
-    #     return(phase)
+    def talk(phrase):
+        return('I can talk!')
