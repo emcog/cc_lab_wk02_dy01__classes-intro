@@ -3,5 +3,8 @@ class Student:
         self.name = name
         self.cohort = cohort
 
-    def talk(phrase):
-        return('I can talk!')
+    def talk(self):
+        return('I can talk')
+
+    def say_favourite_language( self, language ):
+        return( f'I love { language }')
